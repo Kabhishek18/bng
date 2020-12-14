@@ -15,6 +15,8 @@ class HomeController extends Controller
     public function show()
     {
 
-
+	echo view('front/include/header');
+        echo view('front/home');
+        echo view('front/include/footer');
     }
 }
