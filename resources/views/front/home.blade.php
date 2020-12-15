@@ -1,3 +1,4 @@
+@include('flash-message')
 <div id="vfx_loader_block">
   <div class="vfx-loader-item"> <img src="{{asset('resource/images/loading.gif')}}" alt="" /> </div>
 </div>
@@ -19,17 +20,17 @@
                 <li><a href="#">Exporter</a></li>
                 <li><a href="#">Logistics Lead</a></li>
                 <li><a href="#">Products</a></li>
-                <li><a href="categories.html">Categories</a></li>
+                <li><a href="categories">Categories</a></li>
                 <li><a href="#">Listing <i class="fa fa-caret-down"></i></a>
                   <ul class="dropdown">
-                    <li><a href="dashboard.html"><i class="fa fa-angle-double-right"></i> Dashboard</a></li>
-                    <li><a href="listing_grid.html"><i class="fa fa-angle-double-right"></i> Listing Grid</a></li>
-                    <li><a href="listing_list.html"><i class="fa fa-angle-double-right"></i> Listing List</a></li>
-                    <li><a href="listing_left_sidebar.html"><i class="fa fa-angle-double-right"></i> Listing Left Sidebar</a></li>
-                    <li><a href="listing_right_sidebar.html"><i class="fa fa-angle-double-right"></i> Listing Right Sidebar</a></li>
-                    <li><a href="listing_detail.html"><i class="fa fa-angle-double-right"></i> Listing Single Post</a></li>
-                    <li><a href="listing_fullwidth.html"><i class="fa fa-angle-double-right"></i> Listing Full Width</a></li>
-                    <li><a href="page_error_404.html"><i class="fa fa-angle-double-right"></i> Page not Found</a></li>
+                    <li><a href="dashboard"><i class="fa fa-angle-double-right"></i> Dashboard</a></li>
+                    <li><a href="listing_grid"><i class="fa fa-angle-double-right"></i> Listing Grid</a></li>
+                    <li><a href="listing_list"><i class="fa fa-angle-double-right"></i> Listing List</a></li>
+                    <li><a href="listing_left_sidebar"><i class="fa fa-angle-double-right"></i> Listing Left Sidebar</a></li>
+                    <li><a href="listing_right_sidebar"><i class="fa fa-angle-double-right"></i> Listing Right Sidebar</a></li>
+                    <li><a href="listing_detail"><i class="fa fa-angle-double-right"></i> Listing Single Post</a></li>
+                    <li><a href="listing_fullwidth"><i class="fa fa-angle-double-right"></i> Listing Full Width</a></li>
+                    <li><a href="page_error_404"><i class="fa fa-angle-double-right"></i> Page not Found</a></li>
                   </ul>
                 </li>
                 <li class="btn_item">
@@ -212,7 +213,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-				<h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+				<h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -236,7 +237,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-                <h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+                <h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -260,7 +261,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-                <h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+                <h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -284,7 +285,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-                <h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+                <h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -308,7 +309,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-                <h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+                <h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -332,7 +333,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-                <h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+                <h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -356,7 +357,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-                <h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+                <h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -380,7 +381,7 @@
                 </div>
               </div>
               <div class="feature-box-text">
-                <h3><a href="listing_detail.html">Hello Directory Listing</a></h3>
+                <h3><a href="listing_detail">Hello Directory Listing</a></h3>
                 <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                 <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
               </div>
@@ -460,7 +461,7 @@
               </div>
               <div class="col-md-6 col-sm-12 nopadding">
                 <div class="recent-listing-box-item">
-                  <div class="listing-boxes-text"> <a href="listing_detail.html">
+                  <div class="listing-boxes-text"> <a href="listing_detail">
                     <h3>Hello Directory Listing</h3>
                     </a> <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                     <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
@@ -490,7 +491,7 @@
               </div>
               <div class="col-md-6 col-sm-12 nopadding">
                 <div class="recent-listing-box-item">
-                  <div class="listing-boxes-text"> <a href="listing_detail.html">
+                  <div class="listing-boxes-text"> <a href="listing_detail">
                     <h3>Hello Directory Listing</h3>
                     </a> <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                     <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
@@ -520,7 +521,7 @@
               </div>
               <div class="col-md-6 col-sm-12 nopadding">
                 <div class="recent-listing-box-item">
-                  <div class="listing-boxes-text"> <a href="listing_detail.html">
+                  <div class="listing-boxes-text"> <a href="listing_detail">
                     <h3>Hello Directory Listing</h3>
                     </a> <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                     <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
@@ -550,7 +551,7 @@
               </div>
               <div class="col-md-6 col-sm-12 nopadding">
                 <div class="recent-listing-box-item">
-                  <div class="listing-boxes-text"> <a href="listing_detail.html">
+                  <div class="listing-boxes-text"> <a href="listing_detail">
                     <h3>Hello Directory Listing</h3>
                     </a> <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                     <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
@@ -580,7 +581,7 @@
               </div>
               <div class="col-md-6 col-sm-12 nopadding">
                 <div class="recent-listing-box-item">
-                  <div class="listing-boxes-text"> <a href="listing_detail.html">
+                  <div class="listing-boxes-text"> <a href="listing_detail">
                     <h3>Hello Directory Listing</h3>
                     </a> <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                     <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
@@ -610,7 +611,7 @@
               </div>
               <div class="col-md-6 col-sm-12 nopadding">
                 <div class="recent-listing-box-item">
-                  <div class="listing-boxes-text"> <a href="listing_detail.html">
+                  <div class="listing-boxes-text"> <a href="listing_detail">
                     <h3>Hello Directory Listing</h3>
                     </a> <a href="#"><i class="fa fa-phone"></i> +91 087 654 3210</a>
                     <p>Eiusmod tempor incidiunt labore velit dolore magna aliqu sed veniam quis nostrud lorem ipsum dolor sit amet consectetur...</p>
@@ -720,7 +721,7 @@
           <h2>About Us</h2>
           <hr>
           <p class="about-lt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer justo lectus, consectetur quis nisi vitae, Nunc eget ultrices ligula.</p>
-          <a href="about.html" class="btn-primary-link more-detail"><i class="fa fa-hand-o-right"></i> Read More</a>
+          <a href="about" class="btn-primary-link more-detail"><i class="fa fa-hand-o-right"></i> Read More</a>
           <h2>Follow Us</h2>
           <hr>
           <ul class="social-icons">
@@ -738,7 +739,7 @@
             <li>
               <div class="news-thum"><a href="#"><img src="{{asset('resource/images/new-thum-1.png')}}" alt="new-thum-1"></a></div>
               <div class="news-text-thum">
-                <h6><a href="listing_detail.html">Hello Directory Listing</a></h6>
+                <h6><a href="listing_detail">Hello Directory Listing</a></h6>
                 <p>Phasellus ut condimentum diam, eget tempus lorem...</p>
                 <div>Price: $117</div>
               </div>
@@ -746,7 +747,7 @@
             <li>
               <div class="news-thum"><a href="#"><img src="{{asset('resource/images/new-thum-1.png')}}" alt="new-thum-1"></a></div>
               <div class="news-text-thum">
-                <h6><a href="listing_detail.html">Hello Directory Listing</a></h6>
+                <h6><a href="listing_detail">Hello Directory Listing</a></h6>
                 <p>Phasellus ut condimentum diam, eget tempus lorem...</p>
                 <div>Price: $117</div>
               </div>
@@ -843,7 +844,8 @@
       </div>
       <div class="modal-body">
         <div class="listing-register-form">
-          <form action="#">
+        {{ Form::open(array('url' => '/RegisterAuth')) }}
+          @csrf
             <div class="listing-form-field"> <i class="fa fa-user blue-1"></i>
               <input class="form-field bgwhite" type="text" name="user_name" placeholder="Name"  />
             </div>
@@ -863,7 +865,7 @@
             <div class="listing-form-field">
               <input class="submit" type="submit" value="create account" />
             </div>
-          </form>
+            {{ Form::close() }}
         </div>
       </div>
     </div>
