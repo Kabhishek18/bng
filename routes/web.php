@@ -17,4 +17,5 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index']);
 Route::post('/RegisterAuth', [HomeController::class, 'RegisterAuth']);
 Route::get('/category', [HomeController::class, 'Category']);
+Route::get('/emailverify/{uuid}/{name}/{id}/{remember_token}', [HomeController::class, 'RegisterVerify']);
 

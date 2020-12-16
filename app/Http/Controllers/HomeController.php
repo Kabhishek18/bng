@@ -4,20 +4,25 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Request;
+use Webpatser\Uuid\Uuid;
+
 use Illuminate\Support\Facades\DB;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 class HomeController extends Controller
 {
-    public function index()
+  //Home Page  
+  public function index()
     {
         echo view('front/include/header');
         echo view('front/home');
         echo view('front/include/footer');
 
     }
-    public function RegisterAuth()
+
+  //Registration  
+  public function RegisterAuth()
     {
        $data['user_name'] = Request::input('user_name');
        $data['user_email'] = Request::input('user_email');
@@ -41,7 +46,7 @@ class HomeController extends Controller
               try {
 
                   // Mail server settings
-
+                  $MessageBomb = '<a href="">Click Here To Verify</a>';
                   $mail->SMTPDebug = 4; // Enable verbose debug output
                   $mail->isSMTP(); // Set mailer to use SMTP
                   $mail->Host = 'mail.kabhishek18.com'; // Specify main and backup SMTP servers
@@ -92,7 +97,18 @@ class HomeController extends Controller
 	
     }
 
-    public function Category()
+  //Registration Authentication
+  public function RegisterVerify()
+    {
+      $uuid = Uuid::generate()->string;
+      echo url('/');
+
+      $parameters = \Request::segment(2);
+      dd($parameters);
+    }
+
+  
+  public function Category()
     {
         $category = DB::table('category')->get();
         dd($category); 
